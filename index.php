@@ -5,7 +5,7 @@
     // PSA: this code is ai generated. I don't know PHP.
     
     // Configure the URL you want to point it to. Change this... or don't! Up to you!
-    $target_host = 'bestspark.org';
+    $target_host = 'zaka.is-my.app';
 
     $log = __DIR__ . '/proxy_log.txt';
 function lg($msg) {
