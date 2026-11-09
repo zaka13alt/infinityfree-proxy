@@ -1,8 +1,7 @@
 <?php
     // Created by BestSpark687090
-    // if you need support, join my discord at https://discord.gg/bestspark.
-    // or just email me at bestspark@bestspark.org.
-    // PSA: this code is ai generated. I don't know PHP.
+    // modfied by zaka for making zakaon.top links thanks bestspark btw
+    
     
     // Configure the URL you want to point it to. Change this... or don't! Up to you!
     $target_host = 'static.zakaon.top';
