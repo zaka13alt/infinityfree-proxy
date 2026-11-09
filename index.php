@@ -5,7 +5,7 @@
     // PSA: this code is ai generated. I don't know PHP.
     
     // Configure the URL you want to point it to. Change this... or don't! Up to you!
-    $target_host = 'zaka.is-my.app';
+    $target_host = 'static.zakaon.top';
 
     $log = __DIR__ . '/proxy_log.txt';
 function lg($msg) {
@@ -20,7 +20,7 @@ function shutdown_handler() {
 }
 register_shutdown_function('shutdown_handler');
 lg('--- request start: ' . $_SERVER['REQUEST_URI']);
-$remote_base = 'https://' . $target_host;
+$remote_base = 'http://' . $target_host;
 $request_uri = $_SERVER['REQUEST_URI'];
 $url = $remote_base . $request_uri;
 lg('url built: ' . $url);
