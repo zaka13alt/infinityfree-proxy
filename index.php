@@ -24,7 +24,7 @@ $remote_base = 'http://' . $target_host;
 $request_uri = $_SERVER['REQUEST_URI'];
 $url = $remote_base . $request_uri;
 lg('url built: ' . $url);
-$ua = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : 'Mozilla/5.0';
+$ua = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36';
 $opts = array(
 'http' => array(
 'method' => 'GET',
